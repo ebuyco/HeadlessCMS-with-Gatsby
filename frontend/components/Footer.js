@@ -10,6 +10,7 @@ const Footer = props => (
     <Menu menu={props.footerNav} />
     <hr style={hrStyle} />
     <p>
+      
       ❤️{' '}
       <Link href="https://postlight.com">
         <a>Made by Postlight</a>
@@ -25,6 +26,7 @@ const Footer = props => (
       </Link>
     </p>
   </div>
+
 );
 
 export default Footer;

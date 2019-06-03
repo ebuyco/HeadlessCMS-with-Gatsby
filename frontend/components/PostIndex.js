@@ -9,6 +9,7 @@ export default class PostIndex extends Component {
     limit: 5
   };
 
+  
   state = {
     posts: []
   };
